@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+
+    <form action="datos">
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text"><br>
+        <label for="email">Ingrese su email:</label>
+        <input type="email"><br>
+        <label for="estado">Estado civil:</label>
+        <select name="estCivil" id="estCivil">
+            <option value="sol">Soltero</option>
+            <option value="cas">Casado</option>
+            <option value="viu">Viudo</option>
+        </select><br>
+       <input type="checkbox" id="checkbox"> 
+       <label for="checkbox">Acepto terminos y condiciones</label><br>
+       <textarea placeholder="Ingrese sus comentarios" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="Borrar formulario"><br>
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+</body>
+</html>

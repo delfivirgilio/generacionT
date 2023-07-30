@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#uno{
+    height: 150px;
+    border: 3px solid #092454;
+    background-color:  #e69ef2
+    ;
+}
+#dos{
+    height: 150px;
+    border: 3px solid #092454;
+    background-color: #62d0ff;
+}
+#tres{
+    height: 150px;
+    border: 3px solid #092454;
+    background-color: #ced5db;
+}
+#cuatro{
+    height: 150px;
+    border: 3px solid #092454;
+    background-color: #85e38d;
+}

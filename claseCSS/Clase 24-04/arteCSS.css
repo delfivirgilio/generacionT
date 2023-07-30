@@ -1,0 +1,30 @@
+#div1{
+    width: 50px;
+    height: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 5px solid rgb(192, 134, 58);
+  
+}
+#div2{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(173, 75, 75);
+    border-radius: 20px;
+    margin: 0px auto;
+}
+#div3{
+    width: 50px;
+    height: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top: 5px solid rgb(192, 134, 58);
+}
+.divs{
+    background-color: rgb(241, 179, 86);
+    margin: 0px auto;
+}

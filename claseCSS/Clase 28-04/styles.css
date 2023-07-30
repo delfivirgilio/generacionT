@@ -1,0 +1,40 @@
+
+.bg-custom-color {
+    background-color: #21575c;
+    
+}
+
+/*#containerCard{
+    display: flex;
+    justify-content: center;
+   
+}*/
+.card{
+    border: none;
+    align-items: center;
+}
+.imagen{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 2vh;
+}
+#portfolio{
+    background-color: #5ca4a4;
+ 
+}
+#formulario{
+    background-color: #5ca4a4;
+  
+}
+#lista{
+    list-style: none;
+}
+.btn-custom{
+    background-color: #fbac7c;
+    border-color: #fbac7c;
+    color: #fff;
+}
+.footer{
+    background-color: #21575c;
+    color: #fff;
+}

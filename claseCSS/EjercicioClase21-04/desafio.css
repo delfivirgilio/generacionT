@@ -1,0 +1,113 @@
+@font-face {
+    font-family:'Amoitar';
+    src: url(fonts/Amoitar\ Regular.ttf);
+}
+@font-face {
+    font-family: 'tommy';
+    src: url(fonts/tommy\ font.otf);
+}
+@font-face {
+    font-family: 'amigh';
+    src: url(fonts/amigh.otf);
+}
+@font-face {
+    font-family: 'rosalia';
+    src: url(fonts/Rosalia.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo{font-family: tommy;}
+.texto {font-family: Amoitar;}
+.texto1{font-family: Amoitar;
+        font-weight:bolder;
+        font-size: larger;
+        }
+.texto2{font-family: Amoitar;
+font-weight: 100;}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    align-items: flex-start;
+    
+    
+    
+}
+
+#contIndice{
+    font-family: rosalia;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(79, 139, 131, 0.5);
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#indice{
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.contenedor{
+    background-color: rgba(79, 139, 131, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+
+    
+}
+.contenedor2{
+    background-color: rgba(79, 139, 131, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.fin{
+    font-family: tommy;
+}
+
+ul{
+    font-family: rosalia;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #795c11;
+}
+.boton:hover{
+    background-color: #795c11;
+}
+
+.boton{
+    background-color: #b5931c;
+    height: 10%;
+    width: 15%;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family:rosalia;
+    font-weight: bold;
+    margin-top: 1%;
+        
+}

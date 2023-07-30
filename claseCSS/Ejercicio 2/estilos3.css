@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+#navbar{
+    background-color: #118AB2;
+}
+#contenido{
+    width: 70%;
+    background-color: #06D6A0;
+    float: left;
+}
+#sideBar{
+    width: 30%;
+    background-color: #EF476F;
+    float: left;
+}

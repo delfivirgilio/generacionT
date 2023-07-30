@@ -1,0 +1,20 @@
+
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    margin: 1.4%;
+}
+h1{
+    margin-left: 1.4%;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    width: 11%;
+}

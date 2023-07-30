@@ -1,0 +1,20 @@
+body{
+    background-color: lightgray;
+}
+#titulo{
+    color: blue;
+}
+#subtitulo{
+    color: #ba521f;
+}
+#subsubtitulo{
+    color: rgb(120,234,88);
+}
+#parrafo{
+    color: red;
+    background-color: green;
+}
+#imagen{
+    height: 100px;
+    width: 100px;
+}
