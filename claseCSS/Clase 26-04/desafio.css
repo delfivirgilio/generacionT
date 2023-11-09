@@ -1,0 +1,19 @@
+body{
+    background-color: #ffacc6;
+}
+
+.bg-custom-color{
+    background-color: #c67891;
+}
+.nav-link:hover {
+    color: #ffacc6; 
+}
+
+.card{
+    border: 2px solid #c67891;
+    background-color: #e392ab   ;
+}
+.custom-btn{
+    background-color: #c67891;
+    border: #855262 ;
+}

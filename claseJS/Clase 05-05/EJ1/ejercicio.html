@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>Numero Secreto</title>
+</head>
+<body>
+    <script>
+        
+        let numeroSecreto = 6;
+
+        
+        let numeroUsuario = parseInt(prompt("Ingresa un número entero:"));
+
+        if (numeroUsuario === numeroSecreto) {
+            alert("¡Felicitaciones! Adivinaste el número secreto.");
+        } else {
+           
+            if (numeroUsuario > numeroSecreto) {
+                alert("El número ingresado es mayor que el número secreto.");
+            } else {
+                alert("El número ingresado es menor que el número secreto.");
+            }
+        }
+    </script>
+</body>
+</html>
